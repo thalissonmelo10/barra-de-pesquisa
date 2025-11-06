@@ -1,0 +1,25 @@
+body{
+
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
+    
+  
+}
+#banner{
+height: 760px;
+width: 1500px;
+}
+li a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#logp{
+
+    height: 200px;
+    width: 400px;
+
+}
