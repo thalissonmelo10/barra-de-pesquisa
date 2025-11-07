@@ -15,11 +15,23 @@ li a{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    padding: 20PX;
 }
 
-#logp{
 
-    height: 200px;
-    width: 400px;
+ul{
+    display: flex; /* Ativa a propriedade de alinhamento*/
+    flex-direction: row; /*coloca os elementos na horizontal*/
+
+}
+
+li{
+    list-style: none; /*Remove os pontos da lista*/
+}
+
+#logo{
+
+    height: 100px;
+    width: 100px;
 
 }
