@@ -6,9 +6,13 @@ body{
     
   
 }
-#banner{
-height: 760px;
+.banner{
+height: 800px;
 width: 1380px;
+background-image: url("./assents/banner.png"); /*ele adiciona uma imagem como fundo*/
+background-repeat: cover;
+
+
 }
 li a{
 
@@ -33,7 +37,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-
+justify-content: space-between;
 }
 
 
@@ -42,4 +46,8 @@ nav{
     height: 100px;
     width: 100px;
 
+}
+.bi{
+    font-size: 30px;
+    color: #4c544c;
 }
