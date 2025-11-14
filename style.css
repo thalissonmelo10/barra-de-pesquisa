@@ -11,9 +11,9 @@ height: 800px;
 width: 1380px;
 background-image: url("./assents/banner.png"); /*ele adiciona uma imagem como fundo*/
 background-repeat: cover;
+display: flex;
+align-items: center;}
 
-
-}
 li a{
 
     text-decoration: none;
@@ -50,4 +50,18 @@ justify-content: space-between;
 .bi{
     font-size: 30px;
     color: #4c544c;
+}
+.texto-banner{
+    color: aliceblue;
+    font-size: 25px;
+}
+.botao-banner{
+width: 130px; 
+height: 50px; 
+border-radius:  55px; 
+border: none;
+color:#ffffff ;
+font-weight: bold;
+font-size: 19px;
+background-color: #333333;
 }
