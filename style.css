@@ -65,3 +65,13 @@ font-weight: bold;
 font-size: 19px;
 background-color: #333333;
 }
+.banner-estrututa{
+
+    width: 220px;
+
+}
+
+.section-banner{
+    display: flex;
+justify-content: center;
+}
