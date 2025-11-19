@@ -7,8 +7,8 @@ body{
   
 }
 .banner{
-height: 730px;
-width: 1380px;
+height: 500px;
+width: 950px;
 background-image: url("./assents/banner.png"); /*ele adiciona uma imagem como fundo*/
 background-size: cover;
 display: flex;
@@ -90,11 +90,11 @@ justify-content: center;
     justify-content: center;
     padding: 30px;
 }
-.Produtos{
+.produtos{
     height: 430px;
     width: 250px;
 }
-.Valor{
+.valor{
     color: #ffffff;
     font-weight: bold;
     font-size: 30px;
@@ -102,7 +102,8 @@ justify-content: center;
 .card-texto{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
 }
 .card{
     width: 250px; ;
@@ -111,6 +112,9 @@ justify-content: center;
 .cores{
     height: 15px;
     width: 15px;
+    border: none;
+    border-radius: 55px;
+    
 }
 .vermelho{
     background-color: red;
@@ -125,3 +129,45 @@ justify-content: center;
 .preto{
     background-color: black;
 }
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+   margin-top: -23px;
+}
+.carousel{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.banner2{
+  
+    height: 500px;
+    width: 950px;
+    background-image: url("./assents/x-box.png"); /* Ele adiciona uma imagem como fundo */
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    margin: 100px;
+  }
+  
+  .banner-estrutura2 {
+   
+    
+  
+    padding: 10px;
+    color: white; 
+  }
+  
+  .texto-banner2{
+  
+    color: aliceblue;
+    font-size: 25px;
+    
+  
+  }
+
