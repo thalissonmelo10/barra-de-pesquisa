@@ -143,7 +143,7 @@ justify-content: center;
 }
 
 
-.banner2{
+.banner-xbox{
   
     height: 500px;
     width: 950px;
@@ -152,10 +152,10 @@ justify-content: center;
     display: flex;
     align-items: start;
     justify-content: end;
-    margin: 100px;
+    margin: 150px;
   }
   
-  .banner-estrutura2 {
+  .estrutura-xbox{
    
     
   
@@ -163,7 +163,7 @@ justify-content: center;
     color: white; 
   }
   
-  .texto-banner2{
+  .texto-xbox{
   
     color: aliceblue;
     font-size: 25px;
