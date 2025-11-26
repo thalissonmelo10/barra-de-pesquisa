@@ -41,7 +41,7 @@ justify-content: space-between;
 }
 
 
-#logo{
+.logo{
 
     height: 100px;
     width: 100px;
@@ -170,4 +170,56 @@ justify-content: center;
     
   
   }
+  .estrutura-texto1{
+    color: aliceblue;
+    margin: 30px;
+  }
+  
+  .texto-recursos{
+    color: dimgray;
+    display: flex;
+  }
+  
+  .estrutura-universal{
+  
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    gap: 160px;
+    margin: 10px;
+    
+  }
+  
+  .estrutura-universal2{
+   display: flex;
+   background-color: #333333;
+  
+  }
+  
+  .estrutura-texto2{
+    color: aliceblue;
+    font-size: 17px;
+    padding: 30px;
+  }
+  
+  .caixa-icones2{
+  
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    gap: 10px;
+    padding-top: 10px;
+    background-color: #333333;
+  
+  }
+  
+  .logo2{
+    display: flex;
+    justify-content: end;
+  }
+
+
+
 
